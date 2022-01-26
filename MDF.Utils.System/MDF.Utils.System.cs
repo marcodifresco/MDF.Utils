@@ -17,7 +17,7 @@ namespace MDF.Utils.System
             }
             else
             {
-                userDataFolder = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile)+ ".config/" + progName;
+                userDataFolder = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile)+ "/.config/" + progName;
             }
         }
 
