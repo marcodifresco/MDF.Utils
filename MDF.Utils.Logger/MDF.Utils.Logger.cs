@@ -8,15 +8,15 @@ namespace MDF.Utils.Logger
         private bool toConsole = false;
         private bool toFile = false;
         private StreamWriter logFileName;
-        MDFUtilsLogger() { }
+        public MDFUtilsLogger() { }
         ~MDFUtilsLogger() { }
 
-        MDFUtilsLogger(string logFileToUse)
+        public MDFUtilsLogger(string logFileToUse)
         {
             SetlogFileName(logFileToUse);
         }
 
-        void SetlogFileName(string logFileToUse)
+        public void SetlogFileName(string logFileToUse)
         {
             if (Path.GetDirectoryName(logFileToUse).Length == 0)
             {
