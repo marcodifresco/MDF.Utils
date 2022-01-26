@@ -4,7 +4,6 @@
 using System;
 using System.IO;
 using System.Runtime.InteropServices;
-using System.Runtime.InteropServices.ComTypes;
 
 namespace MDF.Utils.System
 {
@@ -16,7 +15,7 @@ namespace MDF.Utils.System
         // Set the data folder on the os user folder (ie /home/{user}/.config on Linux or C:\Users\{user} on Windows) 
         public void SetUserDataFolder(string progName)
         {   // Get the base folder path
-            if (Environment.OSVersion.Platform == PlatformID.Win32NT)
+            if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
             {
                 userDataFolder = Environment.SpecialFolder.ApplicationData + progName;
             }
@@ -26,9 +25,9 @@ namespace MDF.Utils.System
             }
 
             // Create the folder
-            if (!Directory.Exists(progName))
+            if (!Directory.Exists(userDataFolder))
             {
-                Directory.CreateDirectory(progName);
+                Directory.CreateDirectory(userDataFolder);
             }
         }
 
@@ -43,11 +42,12 @@ namespace MDF.Utils.System
             return userDataFolder;
         }
 
+        // Return the OS specific copyright symbol
         public char CopyrightSymbol()
         {
             if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
             {
-                return "\xc2\xa9";
+                return '\xa9';
             }
             else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
             {
