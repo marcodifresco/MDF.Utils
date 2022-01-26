@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace MDF.Utils.System
 {
@@ -10,7 +11,7 @@ namespace MDF.Utils.System
         }
 
         public void SetUserDataFolder(string progName)
-        {
+        {   // Get the base folder path
             if (Environment.OSVersion.Platform == PlatformID.Win32NT)
             {
                 userDataFolder = Environment.SpecialFolder.ApplicationData + progName;
@@ -18,6 +19,12 @@ namespace MDF.Utils.System
             else
             {
                 userDataFolder = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile)+ "/.config/" + progName;
+            }
+
+            // Create the folder
+            if (!Directory.Exists(progName))
+            {
+                Directory.CreateDirectory(progName);
             }
         }
 
