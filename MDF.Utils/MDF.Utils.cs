@@ -16,7 +16,7 @@ namespace MDF.Utils
         // Return a generic copyright statement
         public string CopyrightStatement(string copyrightHolder)
         {
-		    return "Copyright " + " by " + copyrightHolder + " - All Rights Reserved.";
+		    return "Copyright " + '\u00a9' + " by " + copyrightHolder + " - All Rights Reserved.";
 	    }
 
         // Return a warning that the quality of the code is ... hobbistic
