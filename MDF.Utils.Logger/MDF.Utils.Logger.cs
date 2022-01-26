@@ -13,15 +13,15 @@ namespace MDF.Utils.Logger
 
         public MDFUtilsLogger(string logFileToUse)
         {
-            SetlogFileName(logFileToUse);
+            SetLogFileName(logFileToUse);
         }
 
-        public void SetlogFileName(string logFileToUse)
+        public void SetLogFileName(string logFileToUse)
         {
-            if (Path.GetDirectoryName(logFileToUse).Length == 0)
-            {
-                Console.WriteLine("");
-            }
+            // If only the log file name is provide, save it on the user data folder
+            string temp = Path.GetDirectoryName(logFileToUse)!.Length == 0 ? "textadded"+logFileToUse : logFileToUse;
+            //logFileName = Path.GetDirectoryName(logFileToUse)!.Length == 0 ? new StreamWriter("textadded"+logFileToUse) : new StreamWriter(logFileToUse);
+            Console.WriteLine("Log file name: " + temp);
         }
     }
 }
