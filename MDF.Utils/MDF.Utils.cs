@@ -5,7 +5,7 @@ namespace MDF.Utils
     public class MDFUtils
     {
         // Variables
-        private const string version = "0.2.5";    // Version of the library
+        private const string version = "0.1.0";    // Version of the library
 
         // Return the version of this library
         public string Version()
