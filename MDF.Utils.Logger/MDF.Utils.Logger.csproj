@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MDF.Utils.System\MDF.Utils.System.csproj" />
-    <ProjectReference Include="..\MDF.Utils\MDF.Utils.csproj" />
   </ItemGroup>
 
 </Project>

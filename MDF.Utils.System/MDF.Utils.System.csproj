@@ -4,8 +4,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\MDF.Utils\MDF.Utils.csproj" />
-  </ItemGroup>
-
 </Project>
