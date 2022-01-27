@@ -3,7 +3,7 @@ using System.IO;
 
 namespace MDF.Utils.Logger
 {
-    public class MDFUtilsLogger : MDFUtils
+    public class MDFUtilsLogger
     {
         private bool toConsole = false;
         private bool toFile = false;

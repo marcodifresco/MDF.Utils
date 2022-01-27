@@ -7,13 +7,12 @@ using System.Runtime.InteropServices;
 
 namespace MDF.Utils.System
 {
-    public class MDFUtilsSystem : MDFUtils
+    public static class MDFUtilsSystem
     {
-        private string userDataFolder = "";
-        public MDFUtilsSystem() {}
-
+        private static string userDataFolder = "";
+        
         // Set the data folder on the os user folder (ie /home/{user}/.config on Linux or C:\Users\{user} on Windows) 
-        public void SetUserDataFolder(string progName)
+        public static void SetUserDataFolder(string progName)
         {   // Get the base folder path
             if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
             {
@@ -32,7 +31,7 @@ namespace MDF.Utils.System
         }
 
         // Get the data folder on the OS user folder
-        public string GetUserDataFolder()
+        public static string GetUserDataFolder()
         {   // If the userDataFolder is empty, associate it with the base user folder
             if (userDataFolder == "")
             {
@@ -43,7 +42,7 @@ namespace MDF.Utils.System
         }
 
         // Return the OS specific copyright symbol
-        public char CopyrightSymbol()
+        public static char CopyrightSymbol()
         {
             if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
             {
