@@ -7,38 +7,38 @@ using System.Runtime.InteropServices;
 
 namespace MDF.Utils.System
 {
-    public static class MDFUtilsSystem
+    public static class MdfUtilsSystem
     {
-        private static string userDataFolder = "";
+        private static string _userDataFolder = "";
         
         // Set the data folder on the os user folder (ie /home/{user}/.config on Linux or C:\Users\{user} on Windows) 
         public static void SetUserDataFolder(string progName)
         {   // Get the base folder path
             if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
             {
-                userDataFolder = Environment.SpecialFolder.ApplicationData + progName;
+                _userDataFolder = Environment.SpecialFolder.ApplicationData + progName;
             }
             else
             {
-                userDataFolder = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile)+ "/.config/" + progName;
+                _userDataFolder = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile)+ "/.config/" + progName;
             }
 
             // Create the folder
-            if (!Directory.Exists(userDataFolder))
+            if (!Directory.Exists(_userDataFolder))
             {
-                Directory.CreateDirectory(userDataFolder);
+                Directory.CreateDirectory(_userDataFolder);
             }
         }
 
         // Get the data folder on the OS user folder
         public static string GetUserDataFolder()
         {   // If the userDataFolder is empty, associate it with the base user folder
-            if (userDataFolder == "")
+            if (_userDataFolder == "")
             {
                 SetUserDataFolder("");
             }
 
-            return userDataFolder;
+            return _userDataFolder;
         }
 
         // Return the OS specific copyright symbol

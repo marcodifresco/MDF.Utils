@@ -2,7 +2,7 @@
 
 namespace MDF.Utils
 {
-    public static class MDFUtils
+    public static class MdfUtils
     {
         // Variables
         private const string version = "0.1.0";    // Version of the library

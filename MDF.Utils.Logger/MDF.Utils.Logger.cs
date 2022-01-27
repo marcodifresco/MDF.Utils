@@ -1,17 +1,18 @@
 ﻿using System;
 using System.IO;
+using MDF.Utils.System;
 
 namespace MDF.Utils.Logger
 {
-    public class MDFUtilsLogger
+    public class MdfUtilsLogger
     {
-        private bool toConsole = false;
-        private bool toFile = false;
-        private StreamWriter logFileName;
-        public MDFUtilsLogger() { }
-        ~MDFUtilsLogger() { }
+        private bool _toConsole = false;
+        private bool _toFile = false;
+        private StreamWriter _logFileName;
+        public MdfUtilsLogger() { }
+        ~MdfUtilsLogger() { }
 
-        public MDFUtilsLogger(string logFileToUse)
+        public MdfUtilsLogger(string logFileToUse)
         {
             SetLogFileName(logFileToUse);
         }
@@ -19,9 +20,9 @@ namespace MDF.Utils.Logger
         public void SetLogFileName(string logFileToUse)
         {
             // If only the log file name is provide, save it on the user data folder
-            string temp = Path.GetDirectoryName(logFileToUse)!.Length == 0 ? "textadded"+logFileToUse : logFileToUse;
-            //logFileName = Path.GetDirectoryName(logFileToUse)!.Length == 0 ? new StreamWriter("textadded"+logFileToUse) : new StreamWriter(logFileToUse);
-            Console.WriteLine("Log file name: " + temp);
+            _logFileName = (Path.GetDirectoryName(logFileToUse)!.Length == 0)
+                ? new StreamWriter(MdfUtilsSystem.GetUserDataFolder() + logFileToUse)
+                : new StreamWriter(logFileToUse);
         }
     }
 }
