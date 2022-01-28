@@ -1,0 +1,87 @@
+Terms and Conditions
+
+BY DOWNLOADING, INSTALLING, USING, TRANSMITTING, DISTRIBUTING OR COPYING THIS LIBRARY ("THE LIBRARY"), YOU AGREE TO THE
+TERMS OF THIS AGREEMENT (INCLUDING THE LIBRARY LICENSE AND DISCLAIMER OF WARRANTY) WITH MARCO DI FRESCO, THE OWNER OF
+ALL RIGHTS IN RESPECT OF THE LIBRARY.
+
+PLEASE READ THIS DOCUMENT CAREFULLY BEFORE USING THE LIBRARY.
+
+IF YOU DO NOT AGREE TO ANY OF THE TERMS OF THIS LICENSE THEN DO NOT DOWNLOAD, INSTALL, USE, TRANSMIT, DISTRIBUTE OR COPY
+THE LIBRARY.
+
+THIS DOCUMENT CONSTITUTES A LICENSE TO USE THE MDF-Utils LIBRARY ("the library") ON THE TERMS AND CONDITIONS APPEARING
+BELOW.
+
+The library is licensed to you without charge for use only upon the terms of this license, and Marco Di Fresco reserves
+all rights not expressly granted to you.
+
+Marco Di Fresco retains ownership of all copies of the library.
+
+
+1) License
+You may use the library without charge.
+
+You may distribute exact copies of the library to anyone as long as any copy include this license.
+
+
+2) Restrictions
+Marco Di Fresco reserves the right to revoke the above distribution right at any time, for any or no reason.
+
+YOU MAY NOT MODIFY, ADAPT, TRANSLATE, RENT, LEASE, LOAN, SELL, ONSELL, REQUEST DONATIONS BASED UPON THE LIBRARY OR ANY
+PART THEREOF.
+
+You are allowed to create derivative work only by dynamically linking to the library in its binary form and as long the
+derivative work is distributed free of charge; if you plan to receive any economical gain from the derivative work, you
+must contact Marco Di Fresco at marco.difresco@gmail.com to negotiate a commercial licence for the library.
+
+The library contains trade secrets and to protect them you may not decompile, reverse engineer, disassemble or otherwise
+reduce the library to a humanly perceivable form. You agree not to divulge, directly or indirectly, until such trade
+secrets cease to be confidential, for any reason not your own fault.
+
+
+3) Termination
+This license is effective until terminated. The License will terminate automatically without notice from Marco Di Fresco
+if you fail to comply with any provision of this License. Upon termination you must destroy the library and all copies
+thereof. You may terminate this Licence at any time by destroying the library and all copies thereof. Upon termination
+of this license for any reason, you shall continue to be bound by the provisions of Section 2 above. Termination will be
+without prejudice to any rights Marco Di Fresco may have as a result of this agreement.
+ 
+
+4) Disclaimer of Warranty, Limitation of Remedies
+TO THE FULL EXTENT PERMITTED BY LAW, MARCO DI FRESCO HEREBY EXCLUDES ALL CONDITIONS AND WARRANTIES, WHETHER IMPOSED BY
+STATUTE OR BY OPERATION OF LAW OR OTHERWISE, NOT EXPRESSLY SET OUT HEREIN. THE LIBRARY, AND ALL ACCOMPANYING FILES, DATA
+AND MATERIALS ARE DISTRIBUTED "AS IS" AND WITH NO WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED. MARCO DI FRESCO
+DOES NOT WARRANT, GUARANTEE OR MAKE ANY REPRESENTATIONS REGARDING THE USE, OR THE RESULTS OF THE USE, OF THE LIBRARY
+WITH RESPECT TO ITS CORRECTNESS, ACCURACY, RELIABILITY, CURRENTNESS OR OTHERWISE. THE ENTIRE RISK OF USING THE LIBRARY
+IS ASSUMED BY YOU. MARCO DI FRESCO MAKES NO EXPRESS OR IMPLIED WARRANTIES OR CONDITIONS INCLUDING, WITHOUT LIMITATION,
+THE WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE WITH RESPECT TO THE LIBRARY. NO ORAL OR WRITTEN
+INFORMATION OR ADVICE GIVEN BY MARCO DI FRESCO, IT'S DISTRIBUTORS, AGENTS OR EMPLOYEES SHALL CREATE A WARRANTY, AND YOU
+MAY NOT RELY ON ANY SUCH INFORMATION OR ADVICE.
+
+IMPORTANT NOTE: Nothing in this Agreement is intended or shall be construed as excluding or modifying any statutory
+rights, warranties or conditions which by virtue of any national or state Fair Trading, Trade Practices or other such
+consumer legislation may not be modified or excluded. If permitted by such legislation, however, Marco Di Fresco's
+liability for any breach of any such warranty or condition shall be and is hereby limited to the supply of the library
+licensed hereunder again as Marco Di Fresco at its sole discretion may determine to be necessary to correct the said
+breach.
+
+IN NO EVENT SHALL MARCO DI FRESCO BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES (INCLUDING,
+WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, AND THE LOSS OF BUSINESS INFORMATION OR
+COMPUTER PROGRAMS), EVEN IF MARCO DI FRESCO OR ANY MARCO DI FRESCO REPRESENTATIVE HAS BEEN ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGES. IN ADDITION, IN NO EVENT DOES MARCO DI FRESCO AUTHORIZE YOU TO USE THE LIBRARY IN SITUATIONS WHERE FAILURE
+OF THE LIBRARY TO PERFORM CAN REASONABLY BE EXPECTED TO RESULT IN A PHYSICAL INJURY, OR IN LOSS OF LIFE. ANY SUCH USE BY
+YOU IS ENTIRELY AT YOUR OWN RISK, AND YOU AGREE TO HOLD MARCO DI FRESCO HARMLESS FROM ANY CLAIMS OR LOSSES RELATING TO
+SUCH UNAUTHORIZED USE.
+
+5) General
+All rights of any kind in the library which are not expressly granted in this Agreement are entirely and exclusively
+reserved to and by Marco Di Fresco.
+
+This Agreement shall be governed by European law. Exclusive jurisdiction and venue for all matters relating to this
+Agreement shall be in courts and fora located in the Canton of Zurich, Switzerland, and you consent to such jurisdiction
+and venue. This agreement contains the entire Agreement between the parties hereto with respect to the subject matter
+hereof and supersedes all prior agreements and/or understandings (oral or written). Failure or delay by Marco Di Fresco
+in enforcing any right or provision hereof shall not be deemed a waiver of such provision or right with respect to the
+instant or any subsequent breach. If any provision of this Agreement shall be held by a court of competent jurisdiction
+to be contrary to law, that provision will be enforced to the maximum extent permissible, and the remaining provisions
+of this Agreement will remain in force and effec
